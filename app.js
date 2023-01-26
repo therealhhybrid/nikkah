@@ -1,4 +1,4 @@
-let countDownDate = new Date("dec 18, 2022 00:00:00").getTime();
+let countDownDate = new Date("Nov 18, 2023 00:00:00").getTime();
 let x = setInterval(function(){
     let now = new Date().getTime();
     let distance =  countDownDate - now;
